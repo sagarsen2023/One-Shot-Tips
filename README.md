@@ -64,7 +64,7 @@ Below are the initial notes I've compiled in Google Docs. These documents cover 
         <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Flutter">
       </a>
       <br>
-      In your initial step of cross platform development this will help you a lot
+      In your initial step of cross platform development with flutter this will help you a lot
     </td>
   </tr>
 </table>
