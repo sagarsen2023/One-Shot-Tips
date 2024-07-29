@@ -97,6 +97,9 @@
 > Reset to a specific commit
 `git reset --hard commit-hash`
 
+> Remove pushed commit after resetting
+`git push origin HEAD --force`
+
 > Create a tag
 `git tag -a v1.0 -m "Version 1.0"`
 
