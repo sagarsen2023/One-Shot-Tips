@@ -97,6 +97,9 @@
 > Reset to a specific commit
 `git reset --hard commit-hash`
 
+> Reset to last local commit
+`git reset --soft HEAD~` 
+
 > Remove pushed commit after resetting
 `git push origin HEAD --force`
 
