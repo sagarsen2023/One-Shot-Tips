@@ -44,8 +44,11 @@
 > List all branches
 `git branch -a`
 
-> Delete a branch
+> Delete a merged branch
 `git branch -d branch-name`
+
+> Delete a local branch
+`git branch -D branch-name`
 
 # Merging:
 > Merge a branch into the current branch
