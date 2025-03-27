@@ -112,6 +112,9 @@
 > Push tags to remote
 `git push --tags`
 
+> Delete local branches which are not available in remote
+`git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D` 
+
 # GitHub CLI Commands:
 > Authenticate with GitHub
 `gh auth login`
