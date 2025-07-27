@@ -13,7 +13,7 @@ We are not going to discuss installation of ubuntu. This guide is for post intst
   3. `sudo systemctl enable ssh`
   4. `sudo adduser <your_username_here>` The username that you will connect through SSH. And follow the guide from the terminal for creating the user.
   5. `sudo usermod -aG sudo <your_username_here>`
-  6. `ssh keygen -t ed25519 -c "your_email@domain.com"`
+  6. `ssh-keygen -t ed25519 -c "your_email@domain.com"`
   7. You can check status by using `sudo systemctl status ssh`
   8. To check the port exposed enter `ip adder show`. Under the `inet` you will see a local IP where the SSH is connected.
  
@@ -28,3 +28,5 @@ We are not going to discuss installation of ubuntu. This guide is for post intst
      Select Protocol **TCP** and for PORT enter **22**.
 
 Your setup is done.
+Now from any computer type `ssh <your_username_here>@<your_public_static_ip>`
+Type your password and enjoy...
