@@ -23,7 +23,7 @@ We are not going to discuss installation of ubuntu. This guide is for post intst
   1. Open your router local IP: Mostly it stays `192.168.1.1` (you can check it for your router in its user manual)
   2. Navigate to that IP from your browser and login.
   3. Search for `**NAT FORWARDING** OR **PORT FORWARFING**`.
-     If asked for **Service type**, select **HTTP**
+     If asked for **Service type**, select **CUSTOM**
      Enter the IP you want to forward: Here type the local IP taken from INET.
      Select Protocol **TCP** and for PORT enter **22**.
 
