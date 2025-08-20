@@ -42,7 +42,7 @@ To publish packages to npm, you need to set up an NPM_TOKEN secret in your GitHu
 5. Copy the generated token
 
 ### Step 2: Add Token to GitHub Secrets
-1. Go to your GitHub repository: `https://github.com/sagarsen2023/calmui`
+1. Go to your GitHub repository: `https://github.com/<your_username>/<repository_name>`
 2. Navigate to **Settings** → **Secrets and variables** → **Actions**
 3. Click "New repository secret"
 4. Name: `NPM_TOKEN`
