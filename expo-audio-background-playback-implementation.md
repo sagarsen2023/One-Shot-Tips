@@ -21,7 +21,7 @@ In the app.json at `expo.plugins` paste the following
         "UIBackgroundModes": ["remote-notification", "audio"]
       }
 ```
-Create a development build or run `npx expo run:android` or `npx expo run:android`
+Create a development build or run `npx expo run:android` or `npx expo run:ios`
 
 Sample audio player that supports background audio playing after implementing the config plugin
 ```tsx
